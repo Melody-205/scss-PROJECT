@@ -1,0 +1,273 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 80px;
+  margin: 0 auto;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+body header nav .acct-border {
+  border-right: 1px solid gray;
+  padding-right: 35px;
+}
+body header nav .nav-link {
+  margin-right: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-decoration: none;
+  color: #000000;
+}
+body header nav .nav-link:hover {
+  color: red;
+  font-weight: 600;
+}
+body main .hero-section {
+  display: flex;
+  padding-top: 80px;
+  height: calc(100vh - 64px);
+}
+body main .hero-section .left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 120px;
+  width: 50%;
+}
+body main .hero-section .left-section .left-section-btn .red-btn {
+  color: #b00000;
+}
+body main .hero-section .left-section h3 {
+  font-size: 80px;
+  padding-bottom: 50px 0px;
+}
+body main .hero-section .left-section p {
+  font-size: 25px;
+  padding-bottom: 70px;
+}
+body main .hero-section .left-section .btn-container {
+  display: flex;
+}
+body main .hero-section .left-section .hero-link {
+  padding: 12px;
+  background-color: #b00000;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+body main .hero-section .left-section .hero-btn {
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+body main .hero-section .right-section {
+  width: 50%;
+  background-image: url(./images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body main .hero-section .right-section .triangle-one {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-left: 25px solid red;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid red;
+  border-top: 25px solid transparent;
+  position: absolute;
+  left: -20px;
+  bottom: 180px;
+}
+body main .hero-section .right-section .triangle-two {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-left: 30px solid transparent;
+  border-right: 30px solid red;
+  border-bottom: 30px solid red;
+  border-top: 30px solid transparent;
+  position: absolute;
+  top: 50px;
+  right: -20px;
+}
+body main .hero-section .right-section .triangle-three {
+  width: 70px;
+  height: 70px;
+  display: block;
+  border-left: 35px solid transparent;
+  border-right: 35px solid red;
+  border-bottom: 35px solid red;
+  border-top: 35px solid transparent;
+  position: absolute;
+  bottom: 60px;
+  right: -20px;
+}
+body main .sponsors {
+  margin: 80px 0;
+}
+body main .sponsors .sponsor-top {
+  display: flex;
+}
+body main .sponsors .sponsor-top .sponsor-top-left {
+  width: 50%;
+}
+body main .sponsors .sponsor-top .sponsor-top-right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body main .sponsors .sponsor-top .sponsor-top-right .img-div-up {
+  display: flex;
+  justify-content: flex-end;
+}
+body main .sponsors .sponsor-top .sponsor-top-right .img-div-up .img-one {
+  padding-left: 60px;
+}
+body main .sponsors .sponsor-top .img-div-up {
+  display: flex;
+  justify-content: flex-end;
+}
+body main .sponsors .sponsor-top .img-div-up .img-one {
+  padding-left: 60px;
+}
+body main .sponsors .sponsor-bottom {
+  display: flex;
+}
+body main .sponsors .sponsor-bottom .services-card {
+  padding-left: 80px;
+  padding-top: 90px;
+}
+body main .wares-sec .wares {
+  text-align: center;
+  font-size: 50px;
+}
+body main .wares-sec .package {
+  text-align: center;
+  padding-top: 30px;
+}
+body main .wares-sec .time {
+  display: flex;
+  justify-content: center;
+}
+body main .wares-sec .time .month {
+  padding-top: 70px;
+  margin: 0px 20px;
+  font-size: 22px;
+}
+body main .wares-sec .time .yy {
+  border-radius: 8px;
+  background-color: rgb(249, 202, 33);
+  text-decoration: none;
+  padding: 3px;
+  color: #000000;
+  font-size: 12px;
+}
+body main .wares-sec .time .month-btn {
+  padding: 0px;
+}
+body main .wares-sec .lines {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  width: 100%;
+}
+body main .wares-sec .lines .f-line {
+  border-bottom: 3px solid red;
+  padding-right: 400px;
+}
+body main .wares-sec .lines .s-line {
+  border-bottom: 3px solid gray;
+  padding-right: 400px;
+}
+body main .wares-sec .s-borders {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 173px;
+  width: 1000px;
+  padding: 79px 0px;
+}
+body main .wares-sec .s-borders .all-borders {
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 30px;
+  width: 240px;
+  height: 495px;
+}
+body main .wares-sec .s-borders .all-borders .big-text {
+  font-size: 23px;
+}
+body main .wares-sec .s-borders .all-borders .small-texts {
+  font-size: 13px;
+}
+body main .wares-sec .s-borders .all-borders .bigger-text {
+  font-size: 30px;
+  padding-top: 15px;
+}
+body main .wares-sec .s-borders .all-borders .small-text {
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+body main .wares-sec .s-borders .all-borders .btn-border {
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+body main .wares-sec .s-borders .all-borders .nine-li {
+  list-style: none;
+}
+body main .testimonials {
+  display: flex;
+  position: relative;
+  left: 200px;
+  background-image: url(./images/“quotation-red.png);
+  background-repeat: no-repeat;
+}
+body main .testimonials .box-one {
+  border: 1px solid silver;
+  border-radius: 7px;
+  width: 300px;
+  height: 307px;
+  position: absolute;
+  top: 180px;
+}
+body main .testimonials .box-two {
+  border: 1px solid silver;
+  border-radius: 7px;
+  width: 330px;
+  height: 230px;
+  position: absolute;
+  left: 330px;
+}
+body main .testimonials .box-three {
+  border: 1px solid silver;
+  border-radius: 7px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 320px;
+  left: 330px;
+}
+body main .we-serve {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
